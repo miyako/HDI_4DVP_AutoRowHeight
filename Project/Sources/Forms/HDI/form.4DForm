@@ -1,0 +1,294 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 724,
+	"height": 560,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 724,
+					"height": 560,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"stroke": "transparent",
+					"fill": "automatic"
+				}
+			}
+		},
+		{
+			"objects": {
+				"TxtSorry1": {
+					"type": "text",
+					"top": 207,
+					"left": 20,
+					"width": 320,
+					"height": 77,
+					"visibility": "hidden",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": ":xliff:HDI_SorryDesignMode",
+					"class": "hdi-alert-text"
+				},
+				"TxtSorry2": {
+					"type": "text",
+					"top": 120,
+					"left": 20,
+					"width": 320,
+					"height": 81,
+					"visibility": "hidden",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI_SorryOldVersion"
+				},
+				"TxtSorry3": {
+					"type": "text",
+					"top": 349,
+					"left": 20,
+					"width": 320,
+					"height": 37,
+					"visibility": "hidden",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": ":xliff:HDI_PluginMandatory",
+					"class": "hdi-alert-text"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 110,
+					"left": 0,
+					"width": 724,
+					"height": 364,
+					"stroke": "transparent",
+					"class": "hdi-panel"
+				},
+				"TxtVersion": {
+					"type": "text",
+					"top": 486,
+					"left": 130,
+					"width": 300,
+					"height": 17,
+					"text": ":xliff:HDI_VersionAndAbove",
+					"class": "hdi-muted-text"
+				},
+				"Icon4D": {
+					"type": "picture",
+					"top": 24,
+					"left": 24,
+					"width": 64,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/4D.png"
+				},
+				"labelVersion": {
+					"type": "text",
+					"top": 486,
+					"left": 20,
+					"width": 100,
+					"height": 17,
+					"stroke": "automatic",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI_LabelVersion"
+				},
+				"labelBlog": {
+					"type": "text",
+					"top": 532,
+					"left": 20,
+					"width": 100,
+					"height": 17,
+					"stroke": "automatic",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI_LabelBlog"
+				},
+				"labelInfo": {
+					"type": "text",
+					"top": 509,
+					"left": 20,
+					"width": 100,
+					"height": 17,
+					"stroke": "automatic",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI_LabelInfo"
+				},
+				"txtBlog": {
+					"type": "input",
+					"top": 532,
+					"left": 130,
+					"width": 300,
+					"height": 17,
+					"dataSource": "Form:C1466.blog",
+					"textDecoration": "underline",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/txtBlog.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "hdi-link-text"
+				},
+				"txtInfo": {
+					"type": "input",
+					"top": 509,
+					"left": 130,
+					"width": 300,
+					"height": 17,
+					"dataSource": "Form:C1466.info",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onClick"
+					],
+					"class": "hdi-muted-text"
+				},
+				"Picture12": {
+					"type": "picture",
+					"top": 110,
+					"left": 0,
+					"width": 724,
+					"height": 364,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/HDIabout.png"
+				},
+				"BtnDemo": {
+					"type": "button",
+					"top": 520,
+					"left": 614,
+					"width": 90,
+					"action": "Accept",
+					"text": ":xliff:HDI_BtnDemo",
+					"class": "default",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/BtnDemo.4dm"
+				},
+				"Picture11": {
+					"type": "picture",
+					"top": 24,
+					"left": 130,
+					"width": 21,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture11.png"
+				},
+				"txtTitle": {
+					"type": "text",
+					"top": 58,
+					"left": 160,
+					"width": 544,
+					"height": 50,
+					"stroke": "automatic",
+					"textAlign": "left",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": ":xliff:HDI_TxtTitlePlaceholder"
+				},
+				"Text": {
+					"type": "text",
+					"top": 20,
+					"left": 160,
+					"width": 544,
+					"height": 37,
+					"stroke": "automatic",
+					"textAlign": "left",
+					"fontFamily": "System Font",
+					"fontSize": 30,
+					"text": ":xliff:HDI_HeaderHowDoI"
+				},
+				"White90": {
+					"type": "picture",
+					"top": 110,
+					"left": 0,
+					"width": 724,
+					"height": 364,
+					"visibility": "hidden",
+					"pictureFormat": "tiled",
+					"picture": "Images/White90.png"
+				},
+				"ErrorMainText": {
+					"type": "text",
+					"top": 198,
+					"left": 132,
+					"width": 460,
+					"height": 80,
+					"visibility": "hidden",
+					"textAlign": "center",
+					"fontTheme": "main",
+					"text": ":xliff:HDI_ErrorMainTextOldVersion"
+				},
+				"ErrorSubText": {
+					"type": "text",
+					"top": 306,
+					"left": 182,
+					"width": 360,
+					"height": 80,
+					"visibility": "hidden",
+					"textAlign": "center",
+					"text": ":xliff:HDI_ErrorSubTextDesignWarning"
+				}
+			}
+		}
+	],
+	"editor": {
+		"defaultView": "View 1",
+		"activeView": "BAD 4D VERSION",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"BAD 4D VERSION": {
+				"objects": [
+					"TxtSorry1",
+					"TxtSorry2",
+					"TxtSorry3",
+					"White90",
+					"ErrorMainText",
+					"ErrorSubText"
+				]
+			},
+			"4D View Lisense missing": {
+				"objects": [
+					"labelVersion",
+					"labelBlog"
+				]
+			},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

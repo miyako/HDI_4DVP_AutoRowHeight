@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings-import-export table_no="1" format="4D" char_display_format="decimal" platform="automatic" all_records="true" table_name="DOC">
+	<field table_no="1" field_no="1" name="ID" kind="int32"/>
+	<field table_no="1" field_no="2" name="Title" kind="alpha"/>
+	<field table_no="1" field_no="3" name="ShortText" kind="text"/>
+	<field table_no="1" field_no="4" name="LongText" kind="text"/>
+	<field table_no="1" field_no="5" name="SamplePict" kind="picture"/>
+	<xml_settings export_xsl_mode="none"/>
+	<text_settings/>
+</settings-import-export>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/method.4dm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_Title" resname="HDI_Title">
+        <source>Set up list box auto row height?</source>
+        <target>リストボックスの自動行高を設定しますか?</target>
+      </trans-unit>
+      <trans-unit id="HDI_Info" resname="HDI_Info">
+        <source>4D View Pro feature</source>
+        <target>4D View Pro機能</target>
+      </trans-unit>
+      <trans-unit id="BtnClose" resname="BtnClose">
+        <source>Close</source>
+        <target>閉じる</target>
+      </trans-unit>
+      <trans-unit id="ErrorViewProMain" resname="ErrorViewProMain">
+        <source>Sorry, this “How do I” (HDI) example demonstrates a 4D View Pro feature.</source>
+        <target>申し訳ございませんが、この“How do I”(HDI)サンプルは4D View Pro機能を示すものです。</target>
+      </trans-unit>
+      <trans-unit id="ErrorViewProSub" resname="ErrorViewProSub">
+        <source>You must have a valid 4D View Pro license to continue.</source>
+        <target>続行するには有効な4D View Proライセンスが必要です。</target>
+      </trans-unit>
+      <trans-unit id="ErrorWriteProMain" resname="ErrorWriteProMain">
+        <source>Sorry, this “How do I” (HDI) example demonstrates a 4D Write Pro feature.</source>
+        <target>申し訳ございませんが、この“How do I”(HDI)サンプルは4D Write Pro機能を示すものです。</target>
+      </trans-unit>
+      <trans-unit id="ErrorWriteProSub" resname="ErrorWriteProSub">
+        <source>You must have a valid 4D Write Pro license to continue.</source>
+        <target>続行するには有効な4D Write Proライセンスが必要です。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatTruncatedCentered" resname="HDI2_PictFormatTruncatedCentered">
+        <source>Truncated centered (*)</source>
+        <target>中央切り詰め (*)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatScaledToFit" resname="HDI2_PictFormatScaledToFit">
+        <source>Scaled to fit</source>
+        <target>サイズに合わせて拡大縮小</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatOnBackground" resname="HDI2_PictFormatOnBackground">
+        <source>On background</source>
+        <target>背景に配置</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatTruncatedNonCentered" resname="HDI2_PictFormatTruncatedNonCentered">
+        <source>Truncated non centered (*)</source>
+        <target>非中央切り詰め (*)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatScaledToFitProportional" resname="HDI2_PictFormatScaledToFitProportional">
+        <source>Scaled to fit proportional (*)</source>
+        <target>比例縮小 (*)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatScaledToFitPropCentered" resname="HDI2_PictFormatScaledToFitPropCentered">
+        <source>Scaled to fit prop centered (*)</source>
+        <target>中央比例縮小 (*)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_PictFormatReplicated" resname="HDI2_PictFormatReplicated">
+        <source>Replicated</source>
+        <target>反復</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RowUnitLines" resname="HDI2_RowUnitLines">
+        <source>Lines</source>
+        <target>行</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RowUnitPixels" resname="HDI2_RowUnitPixels">
+        <source>Pixels</source>
+        <target>ピクセル</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

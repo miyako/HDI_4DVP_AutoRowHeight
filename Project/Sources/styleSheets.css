@@ -1,0 +1,48 @@
+/* Cross-platform dark mode rules. Automatic color values ("automatic",
+   "automaticAlternate") are handled directly as form-object property values
+   in form.4DForm and require no CSS. The rules below cover objects that use
+   deliberate, non-automatic light/dark colour pairs. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-panel {
+		fill: #C0C0C0;
+	}
+
+	.hdi-alert-text {
+		stroke: #FF4D00;
+	}
+
+	.hdi-muted-text {
+		stroke: #696969;
+	}
+
+	.hdi-link-text {
+		stroke: #1E90FF;
+	}
+
+	.hdi-list {
+		fill: #FFFFF0;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-panel {
+		fill: #3A3A3A;
+	}
+
+	.hdi-alert-text {
+		stroke: #CC6A2E;
+	}
+
+	.hdi-muted-text {
+		stroke: #A0A0A0;
+	}
+
+	.hdi-link-text {
+		stroke: #5CB8FF;
+	}
+
+	.hdi-list {
+		fill: #3A331F;
+	}
+}

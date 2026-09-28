@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_SorryDesignMode" resname="HDI_SorryDesignMode">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこのHDIをデザインモードで開かないでください。開いた場合、機能不足によりフォームやメソッドが変更される可能性があります。</target>
+      </trans-unit>
+      <trans-unit id="HDI_SorryOldVersion" resname="HDI_SorryOldVersion">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+        <target>申し訳ございませんが、この“How do I”(HDI)サンプルはより新しいバージョンの4D(v16以降)で使用する必要があります。</target>
+      </trans-unit>
+      <trans-unit id="HDI_PluginMandatory" resname="HDI_PluginMandatory">
+        <source>The plugin xxx is mandatory</source>
+        <target>プラグインxxxは必須です</target>
+      </trans-unit>
+      <trans-unit id="HDI_VersionAndAbove" resname="HDI_VersionAndAbove">
+        <source>{version} and above</source>
+        <target>{version} 以降</target>
+      </trans-unit>
+      <trans-unit id="HDI_LabelVersion" resname="HDI_LabelVersion">
+        <source>Version:</source>
+        <target>バージョン:</target>
+      </trans-unit>
+      <trans-unit id="HDI_LabelBlog" resname="HDI_LabelBlog">
+        <source>Blog:</source>
+        <target>ブログ:</target>
+      </trans-unit>
+      <trans-unit id="HDI_LabelInfo" resname="HDI_LabelInfo">
+        <source>Info:</source>
+        <target>情報:</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtTitlePlaceholder" resname="HDI_TxtTitlePlaceholder">
+        <source>• title •</source>
+        <target>• タイトル •</target>
+      </trans-unit>
+      <trans-unit id="HDI_HeaderHowDoI" resname="HDI_HeaderHowDoI">
+        <source>How do I…</source>
+        <target>How do I…</target>
+      </trans-unit>
+      <trans-unit id="HDI_ErrorMainTextOldVersion" resname="HDI_ErrorMainTextOldVersion">
+        <source>Sorry, this "How do I" (HDI) example mustbe used with a newer version of 4D({version} and above)</source>
+        <target>申し訳ございませんが、この"How do I"(HDI)サンプルはより新しいバージョンの4Dで使用する必要があります({version} 以降)</target>
+      </trans-unit>
+      <trans-unit id="HDI_ErrorSubTextDesignWarning" resname="HDI_ErrorSubTextDesignWarning">
+        <source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこのHDIをデザインモードで開かないでください。開いた場合、機能不足によりフォームやメソッドが変更される可能性があります。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/1/Output/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Output_LabelID" resname="Output_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="Output_LabelTitle" resname="Output_LabelTitle">
+        <source>Title : </source>
+        <target>Title : </target>
+      </trans-unit>
+      <trans-unit id="Output_LabelShortText" resname="Output_LabelShortText">
+        <source>ShortText : </source>
+        <target>ShortText : </target>
+      </trans-unit>
+      <trans-unit id="Output_LabelLongText" resname="Output_LabelLongText">
+        <source>LongText : </source>
+        <target>LongText : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
