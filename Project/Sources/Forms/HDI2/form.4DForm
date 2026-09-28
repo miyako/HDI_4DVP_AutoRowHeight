@@ -48,8 +48,8 @@
 					"sizingY": "grow",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -68,7 +68,7 @@
 					"height": 33,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "New properties are available for list boxes."
+					"text": ":xliff:HDI2_IntroText"
 				},
 				"Text8": {
 					"type": "text",
@@ -78,7 +78,7 @@
 					"height": 33,
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Automatic Row Height:"
+					"text": ":xliff:HDI2_LabelAutoRowHeight"
 				},
 				"Text9": {
 					"type": "text",
@@ -88,7 +88,7 @@
 					"height": 33,
 					"textAlign": "right",
 					"fontWeight": "bold",
-					"text": "Min and Max Row Height:"
+					"text": ":xliff:HDI2_LabelMinMaxRowHeight"
 				},
 				"Text11": {
 					"type": "text",
@@ -97,7 +97,7 @@
 					"width": 550,
 					"height": 63,
 					"textAlign": "left",
-					"text": "When checked for the list box, this property will activate the feature for every column.\rIt can also be checked or unchecked for each column individually."
+					"text": ":xliff:HDI2_DescAutoRowHeight"
 				},
 				"Text12": {
 					"type": "text",
@@ -106,7 +106,7 @@
 					"width": 550,
 					"height": 63,
 					"textAlign": "left",
-					"text": "These properties are available for the list box only and will define the minimum and maximum row height for all columns. The unit can be either lines or pixels."
+					"text": ":xliff:HDI2_DescMinMaxRowHeight"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -128,7 +128,7 @@
 					"width": 140,
 					"height": 210,
 					"sizingY": "move",
-					"text": "Allow wordwrap:"
+					"text": ":xliff:HDI2_GroupAllowWordwrap"
 				},
 				"Text3": {
 					"type": "groupBox",
@@ -137,7 +137,7 @@
 					"width": 140,
 					"height": 210,
 					"sizingY": "move",
-					"text": "Row height:"
+					"text": ":xliff:HDI2_GroupRowHeight"
 				},
 				"Text2": {
 					"type": "groupBox",
@@ -146,7 +146,7 @@
 					"width": 400,
 					"height": 210,
 					"sizingY": "move",
-					"text": "Picture format"
+					"text": ":xliff:HDI2_GroupPictureFormat"
 				},
 				"Text1": {
 					"type": "groupBox",
@@ -155,7 +155,7 @@
 					"width": 140,
 					"height": 210,
 					"sizingY": "move",
-					"text": "Auto row height:"
+					"text": ":xliff:HDI2_GroupAutoRowHeight"
 				},
 				"LB": {
 					"type": "listbox",
@@ -170,8 +170,7 @@
 					"rowHeightAutoMax": "8em",
 					"headerHeight": "20px",
 					"scrollbarHorizontal": "hidden",
-					"fill": "#FFFFF0",
-					"alternateFill": "#F0F7FF",
+					"alternateFill": "automaticAlternate",
 					"verticalAlign": "top",
 					"fontFamily": "Arial",
 					"fontSize": 12,
@@ -188,8 +187,6 @@
 							"maxWidth": 400,
 							"resizable": false,
 							"stroke": "automatic",
-							"fill": "#FFFFF0",
-							"alternateFill": "#F0F7FF",
 							"textAlign": "automatic",
 							"verticalAlign": "top",
 							"fontFamily": "Arial",
@@ -200,7 +197,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Picture",
+								"text": ":xliff:HDI2_LblPicture",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "top",
@@ -210,12 +207,13 @@
 							"footer": {
 								"name": "Footer4",
 								"stroke": "automatic",
-								"fill": "#FFFFF0",
 								"textAlign": "automatic",
 								"verticalAlign": "top",
 								"fontFamily": "Arial",
-								"fontSize": 12
-							}
+								"fontSize": 12,
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Col1",
@@ -227,8 +225,6 @@
 							"contextMenu": "none",
 							"wordwrap": "normal",
 							"stroke": "automatic",
-							"fill": "#FFFFF0",
-							"alternateFill": "#F0F7FF",
 							"textAlign": "automatic",
 							"verticalAlign": "top",
 							"fontFamily": "Arial",
@@ -240,7 +236,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "Name",
+								"text": ":xliff:HDI2_LblName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "top",
@@ -250,12 +246,13 @@
 							"footer": {
 								"name": "Footer1",
 								"stroke": "automatic",
-								"fill": "#FFFFF0",
 								"textAlign": "automatic",
 								"verticalAlign": "top",
 								"fontFamily": "Arial",
-								"fontSize": 12
-							}
+								"fontSize": 12,
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Col2",
@@ -267,8 +264,6 @@
 							"contextMenu": "none",
 							"wordwrap": "normal",
 							"stroke": "automatic",
-							"fill": "#FFFFF0",
-							"alternateFill": "#F0F7FF",
 							"rowHeightAuto": true,
 							"textAlign": "automatic",
 							"verticalAlign": "top",
@@ -280,7 +275,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Short text",
+								"text": ":xliff:HDI2_LblShortText",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "top",
@@ -290,12 +285,13 @@
 							"footer": {
 								"name": "Footer2",
 								"stroke": "automatic",
-								"fill": "#FFFFF0",
 								"textAlign": "automatic",
 								"verticalAlign": "top",
 								"fontFamily": "Arial",
-								"fontSize": 12
-							}
+								"fontSize": 12,
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Col3",
@@ -307,8 +303,6 @@
 							"contextMenu": "none",
 							"wordwrap": "normal",
 							"stroke": "automatic",
-							"fill": "#FFFFF0",
-							"alternateFill": "#F0F7FF",
 							"rowHeightAuto": true,
 							"textAlign": "automatic",
 							"verticalAlign": "top",
@@ -320,7 +314,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Full text",
+								"text": ":xliff:HDI2_LblFullText",
 								"dataSource": "Column 3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -331,14 +325,17 @@
 							"footer": {
 								"name": "Footer3",
 								"stroke": "automatic",
-								"fill": "#FFFFF0",
 								"textAlign": "automatic",
 								"verticalAlign": "top",
 								"fontFamily": "Arial",
-								"fontSize": 12
-							}
+								"fontSize": 12,
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"class": "hdi-list",
+					"resizingMode": "legacy"
 				},
 				"Combo Box": {
 					"type": "dropdown",
@@ -360,7 +357,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Picture",
+					"text": ":xliff:HDI2_LblPicture",
 					"focusable": false,
 					"method": "ObjectMethods/CB_1_0.4dm",
 					"events": [
@@ -374,7 +371,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Name",
+					"text": ":xliff:HDI2_LblName",
 					"focusable": false,
 					"method": "ObjectMethods/CB_1_1.4dm",
 					"events": [
@@ -388,7 +385,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Short text",
+					"text": ":xliff:HDI2_LblShortText",
 					"focusable": false,
 					"method": "ObjectMethods/CB_1_2.4dm",
 					"events": [
@@ -402,7 +399,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Full text",
+					"text": ":xliff:HDI2_LblFullText",
 					"focusable": false,
 					"method": "ObjectMethods/CB_1_3.4dm",
 					"events": [
@@ -463,7 +460,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Name",
+					"text": ":xliff:HDI2_LblName",
 					"focusable": false,
 					"method": "ObjectMethods/CB_2_1.4dm",
 					"events": [
@@ -477,7 +474,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Short text",
+					"text": ":xliff:HDI2_LblShortText",
 					"focusable": false,
 					"method": "ObjectMethods/CB_2_2.4dm",
 					"events": [
@@ -491,7 +488,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Full text",
+					"text": ":xliff:HDI2_LblFullText",
 					"focusable": false,
 					"method": "ObjectMethods/CB_2_3.4dm",
 					"events": [
@@ -506,7 +503,7 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Min:"
+					"text": ":xliff:HDI2_LblMin"
 				},
 				"Text6": {
 					"type": "text",
@@ -516,7 +513,7 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Max:"
+					"text": ":xliff:HDI2_LblMax"
 				},
 				"Text14": {
 					"type": "text",
@@ -526,7 +523,7 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Unit:"
+					"text": ":xliff:HDI2_LblUnit"
 				},
 				"Text15": {
 					"type": "text",
@@ -536,7 +533,7 @@
 					"height": 150,
 					"sizingY": "move",
 					"textAlign": "left",
-					"text": "(*) These formats are used to define row heights.\r\rIn truncated mode, the pictures are truncated horizontaly only. The height is used to define the height of the row.\r\rIn proportional mode, the height is calculated according to the Width/Height ratio of the picture."
+					"text": ":xliff:HDI2_NoteFormats"
 				},
 				"CB_AutoHeight": {
 					"type": "checkbox",
@@ -545,7 +542,7 @@
 					"width": 110,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Auto Height",
+					"text": ":xliff:HDI2_LblAutoHeight",
 					"focusable": false,
 					"method": "ObjectMethods/CB_AutoHeight.4dm",
 					"events": [

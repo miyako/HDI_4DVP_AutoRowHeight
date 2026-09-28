@@ -1,4 +1,5 @@
 //%attributes = {"invisible":true}
-C_REAL:C285(Column 3)
-C_LONGINT:C283(vhMax)
-C_LONGINT:C283(vhMin)
+  // "Column 3" is only bound as a form-object dataSource (HDI2 Header3) and
+  // is never referenced in method code, so it is typed by the form binding
+  // alone and intentionally not redeclared here.
+var vhMax; vhMin : Integer

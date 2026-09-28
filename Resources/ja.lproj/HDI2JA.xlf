@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+        <source>Info</source>
+        <target>情報</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="HDI2_IntroText" resname="HDI2_IntroText">
+        <source>New properties are available for list boxes.</source>
+        <target>リストボックスに新しいプロパティが追加されました。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LabelAutoRowHeight" resname="HDI2_LabelAutoRowHeight">
+        <source>Automatic Row Height:</source>
+        <target>自動行高:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LabelMinMaxRowHeight" resname="HDI2_LabelMinMaxRowHeight">
+        <source>Min and Max Row Height:</source>
+        <target>最小/最大行高:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_DescAutoRowHeight" resname="HDI2_DescAutoRowHeight">
+        <source>When checked for the list box, this property will activate the feature for every column.It can also be checked or unchecked for each column individually.</source>
+        <target>リストボックスに対してチェックすると、この機能はすべてのカラムに対して有効になります。各カラムごとに個別にチェック/チェック解除することもできます。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_DescMinMaxRowHeight" resname="HDI2_DescMinMaxRowHeight">
+        <source>These properties are available for the list box only and will define the minimum and maximum row height for all columns. The unit can be either lines or pixels.</source>
+        <target>これらのプロパティはリストボックスのみに適用され、すべてのカラムの最小/最大行高を定義します。単位は行またはピクセルです。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GroupAllowWordwrap" resname="HDI2_GroupAllowWordwrap">
+        <source>Allow wordwrap:</source>
+        <target>折り返しを許可:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GroupRowHeight" resname="HDI2_GroupRowHeight">
+        <source>Row height:</source>
+        <target>行高:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GroupPictureFormat" resname="HDI2_GroupPictureFormat">
+        <source>Picture format</source>
+        <target>画像フォーマット</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GroupAutoRowHeight" resname="HDI2_GroupAutoRowHeight">
+        <source>Auto row height:</source>
+        <target>自動行高:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblMin" resname="HDI2_LblMin">
+        <source>Min:</source>
+        <target>最小:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblMax" resname="HDI2_LblMax">
+        <source>Max:</source>
+        <target>最大:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblUnit" resname="HDI2_LblUnit">
+        <source>Unit:</source>
+        <target>単位:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_NoteFormats" resname="HDI2_NoteFormats">
+        <source>(*) These formats are used to define row heights.In truncated mode, the pictures are truncated horizontaly only. The height is used to define the height of the row.In proportional mode, the height is calculated according to the Width/Height ratio of the picture.</source>
+        <target>(*) これらのフォーマットは行高を定義するために使用されます。切り詰めモードでは、画像は水平方向にのみ切り詰められます。高さは行の高さを定義するために使用されます。比例モードでは、高さは画像の幅/高さの比率に応じて計算されます。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblAutoHeight" resname="HDI2_LblAutoHeight">
+        <source>Auto Height</source>
+        <target>自動高さ</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblPicture" resname="HDI2_LblPicture">
+        <source>Picture</source>
+        <target>画像</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblName" resname="HDI2_LblName">
+        <source>Name</source>
+        <target>名前</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblShortText" resname="HDI2_LblShortText">
+        <source>Short text</source>
+        <target>短いテキスト</target>
+      </trans-unit>
+      <trans-unit id="HDI2_LblFullText" resname="HDI2_LblFullText">
+        <source>Full text</source>
+        <target>全文</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

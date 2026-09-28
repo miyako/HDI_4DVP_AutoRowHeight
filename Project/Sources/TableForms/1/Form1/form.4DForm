@@ -47,8 +47,8 @@
 					"width": 515,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "DOC"
+					"stroke": "automatic",
+					"text": ":xliff:Form1_Header"
 				},
 				"Line9": {
 					"type": "line",
@@ -197,7 +197,7 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:Form1_LabelID"
 				},
 				"Text11": {
 					"type": "text",
@@ -206,7 +206,7 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "LongText : "
+					"text": ":xliff:Form1_LabelLongText"
 				},
 				"Text12": {
 					"type": "text",
@@ -215,7 +215,7 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "SamplePict : "
+					"text": ":xliff:Form1_LabelSamplePict"
 				},
 				"Text13": {
 					"type": "text",
@@ -224,7 +224,7 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ShortText : "
+					"text": ":xliff:Form1_LabelShortText"
 				},
 				"Text14": {
 					"type": "text",
@@ -233,7 +233,7 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Title : "
+					"text": ":xliff:Form1_LabelTitle"
 				},
 				"ID": {
 					"type": "input",
@@ -272,7 +272,7 @@
 					"sizingY": "grow",
 					"dataSource": "[DOC:1]LongText:4",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"allowFontColorPicker": true,
@@ -299,7 +299,7 @@
 					"height": 250,
 					"dataSource": "[DOC:1]SamplePict:5",
 					"dataSourceTypeHint": "picture",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"scrollbarVertical": "visible",
 					"scrollbarHorizontal": "visible",
@@ -325,7 +325,7 @@
 					"sizingY": "grow",
 					"dataSource": "[DOC:1]ShortText:3",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"allowFontColorPicker": true,
@@ -352,7 +352,7 @@
 					"height": 17,
 					"dataSource": "[DOC:1]Title:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -374,13 +374,13 @@
 					"top": 168,
 					"left": 592,
 					"width": 144,
-					"height": 23,
-					"text": "Button",
+					"text": ":xliff:Form1_BtnButton",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

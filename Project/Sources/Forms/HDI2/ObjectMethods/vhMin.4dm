@@ -1,4 +1,4 @@
-C_LONGINT:C283($unit)
+var $unit : Integer
 $unit:=Choose:C955(_rowUnit; 999; lk lines:K53:23; lk pixels:K53:22)  //0-1-2
 
 

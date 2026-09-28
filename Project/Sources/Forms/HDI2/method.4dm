@@ -28,19 +28,19 @@ Case of
 		
 		
 		ARRAY TEXT:C222(_pictFormat; 0)
-		APPEND TO ARRAY:C911(_pictFormat; "Truncated centered (*)")  //1
-		APPEND TO ARRAY:C911(_pictFormat; "Scaled to fit")  //2
-		APPEND TO ARRAY:C911(_pictFormat; "On background")  //3
-		APPEND TO ARRAY:C911(_pictFormat; "Truncated non centered (*)")  //4
-		APPEND TO ARRAY:C911(_pictFormat; "Scaled to fit proportional (*)")  //5
-		APPEND TO ARRAY:C911(_pictFormat; "Scaled to fit prop centered (*)")  //6
-		APPEND TO ARRAY:C911(_pictFormat; "Replicated")  //7
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatTruncatedCentered"))  //1
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatScaledToFit"))  //2
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatOnBackground"))  //3
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatTruncatedNonCentered"))  //4
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatScaledToFitProportional"))  //5
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatScaledToFitPropCentered"))  //6
+		APPEND TO ARRAY:C911(_pictFormat; Localized string("HDI2_PictFormatReplicated"))  //7
 		_pictFormat:=Character code:C91(OBJECT Get format:C894(*; "col0"))
 		
 		
 		ARRAY TEXT:C222(_rowUnit; 0)
-		APPEND TO ARRAY:C911(_rowUnit; "Lines")  //1
-		APPEND TO ARRAY:C911(_rowUnit; "Pixels")  //2
+		APPEND TO ARRAY:C911(_rowUnit; Localized string("HDI2_RowUnitLines"))  //1
+		APPEND TO ARRAY:C911(_rowUnit; Localized string("HDI2_RowUnitPixels"))  //2
 		_rowUnit:=1
 		
 		vhMin:=LISTBOX Get auto row height:C1502(*; "LB"; lk row min height:K53:73; lk lines:K53:23)

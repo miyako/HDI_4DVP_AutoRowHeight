@@ -58,7 +58,7 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:Output_LabelID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +67,7 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title : "
+					"text": ":xliff:Output_LabelTitle"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -76,7 +76,7 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ShortText : "
+					"text": ":xliff:Output_LabelShortText"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -85,7 +85,7 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "LongText : "
+					"text": ":xliff:Output_LabelLongText"
 				},
 				"Rectangle6": {
 					"type": "rectangle",
@@ -132,7 +132,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[DOC:1]Title:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -157,7 +157,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[DOC:1]ShortText:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -182,7 +182,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[DOC:1]LongText:4",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -204,7 +204,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line8": {
 					"type": "line",
@@ -212,14 +212,14 @@
 					"left": 960,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line9": {
 					"type": "line",
 					"top": -5,
 					"left": 688,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -238,7 +238,7 @@
 					"top": -5,
 					"left": 416,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter3": {
 					"type": "splitter",
@@ -257,7 +257,7 @@
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter4": {
 					"type": "splitter",
