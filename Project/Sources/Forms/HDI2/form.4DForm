@@ -1,0 +1,558 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 960,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 720,
+	"windowMaxHeight": 32000,
+	"width": 960,
+	"height": 740,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 920,
+					"height": 700,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Info",
+						"Demo"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text7": {
+					"type": "text",
+					"top": 76,
+					"left": 253,
+					"width": 450,
+					"height": 33,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "New properties are available for list boxes."
+				},
+				"Text8": {
+					"type": "text",
+					"top": 542,
+					"left": 50,
+					"width": 200,
+					"height": 33,
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Automatic Row Height:"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 622,
+					"left": 50,
+					"width": 200,
+					"height": 33,
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": "Min and Max Row Height:"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 542,
+					"left": 280,
+					"width": 550,
+					"height": 63,
+					"textAlign": "left",
+					"text": "When checked for the list box, this property will activate the feature for every column.\rIt can also be checked or unchecked for each column individually."
+				},
+				"Text12": {
+					"type": "text",
+					"top": 622,
+					"left": 280,
+					"width": 550,
+					"height": 63,
+					"textAlign": "left",
+					"text": "These properties are available for the list box only and will define the minimum and maximum row height for all columns. The unit can be either lines or pixels."
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 121,
+					"left": 217,
+					"width": 560,
+					"height": 380,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Text4": {
+					"type": "groupBox",
+					"top": 490,
+					"left": 360,
+					"width": 140,
+					"height": 210,
+					"sizingY": "move",
+					"text": "Allow wordwrap:"
+				},
+				"Text3": {
+					"type": "groupBox",
+					"top": 490,
+					"left": 200,
+					"width": 140,
+					"height": 210,
+					"sizingY": "move",
+					"text": "Row height:"
+				},
+				"Text2": {
+					"type": "groupBox",
+					"top": 490,
+					"left": 520,
+					"width": 400,
+					"height": 210,
+					"sizingY": "move",
+					"text": "Picture format"
+				},
+				"Text1": {
+					"type": "groupBox",
+					"top": 490,
+					"left": 40,
+					"width": 140,
+					"height": 210,
+					"sizingY": "move",
+					"text": "Auto row height:"
+				},
+				"LB": {
+					"type": "listbox",
+					"top": 80,
+					"left": 40,
+					"width": 880,
+					"height": 399,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"hideFocusRing": true,
+					"rowHeight": "20px",
+					"rowHeightAutoMax": "8em",
+					"headerHeight": "20px",
+					"scrollbarHorizontal": "hidden",
+					"fill": "#FFFFF0",
+					"alternateFill": "#F0F7FF",
+					"verticalAlign": "top",
+					"fontFamily": "Arial",
+					"fontSize": 12,
+					"events": [
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "Col0",
+							"dataSource": "col0",
+							"dataSourceTypeHint": "picture",
+							"width": 160,
+							"minWidth": 100,
+							"maxWidth": 400,
+							"resizable": false,
+							"stroke": "automatic",
+							"fill": "#FFFFF0",
+							"alternateFill": "#F0F7FF",
+							"textAlign": "automatic",
+							"verticalAlign": "top",
+							"fontFamily": "Arial",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Picture",
+								"stroke": "automatic",
+								"textAlign": "center",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "automatic",
+								"fill": "#FFFFF0",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Col1",
+							"dataSource": "col1",
+							"width": 140,
+							"minWidth": 140,
+							"maxWidth": 220,
+							"styledText": true,
+							"contextMenu": "none",
+							"wordwrap": "normal",
+							"stroke": "automatic",
+							"fill": "#FFFFF0",
+							"alternateFill": "#F0F7FF",
+							"textAlign": "automatic",
+							"verticalAlign": "top",
+							"fontFamily": "Arial",
+							"fontSize": 14,
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Name",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "#FFFFF0",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Col2",
+							"dataSource": "col2",
+							"width": 225,
+							"minWidth": 160,
+							"maxWidth": 400,
+							"styledText": true,
+							"contextMenu": "none",
+							"wordwrap": "normal",
+							"stroke": "automatic",
+							"fill": "#FFFFF0",
+							"alternateFill": "#F0F7FF",
+							"rowHeightAuto": true,
+							"textAlign": "automatic",
+							"verticalAlign": "top",
+							"fontFamily": "Arial",
+							"fontSize": 14,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Short text",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "#FFFFF0",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							}
+						},
+						{
+							"name": "Col3",
+							"dataSource": "col3",
+							"width": 340,
+							"minWidth": 340,
+							"maxWidth": 1000,
+							"styledText": true,
+							"contextMenu": "none",
+							"wordwrap": "normal",
+							"stroke": "automatic",
+							"fill": "#FFFFF0",
+							"alternateFill": "#F0F7FF",
+							"rowHeightAuto": true,
+							"textAlign": "automatic",
+							"verticalAlign": "top",
+							"fontFamily": "Arial",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Full text",
+								"dataSource": "Column 3",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "#FFFFF0",
+								"textAlign": "automatic",
+								"verticalAlign": "top",
+								"fontFamily": "Arial",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Combo Box": {
+					"type": "dropdown",
+					"top": 520,
+					"left": 540,
+					"width": 240,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "_pictFormat",
+					"method": "ObjectMethods/Combo Box.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"CB_1_0": {
+					"type": "checkbox",
+					"top": 580,
+					"left": 60,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Picture",
+					"focusable": false,
+					"method": "ObjectMethods/CB_1_0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"CB_1_1": {
+					"type": "checkbox",
+					"top": 605,
+					"left": 60,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Name",
+					"focusable": false,
+					"method": "ObjectMethods/CB_1_1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"CB_1_2": {
+					"type": "checkbox",
+					"top": 630,
+					"left": 60,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Short text",
+					"focusable": false,
+					"method": "ObjectMethods/CB_1_2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"CB_1_3": {
+					"type": "checkbox",
+					"top": 655,
+					"left": 60,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Full text",
+					"focusable": false,
+					"method": "ObjectMethods/CB_1_3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vhMin": {
+					"type": "input",
+					"top": 582,
+					"left": 250,
+					"width": 70,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "vhMin",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vhMin.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 608,
+					"left": 250,
+					"width": 70,
+					"height": 15,
+					"sizingY": "move",
+					"dataSource": "vhMax",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/Variable1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Combo Box1": {
+					"type": "dropdown",
+					"top": 520,
+					"left": 254,
+					"width": 70,
+					"height": 17,
+					"sizingY": "move",
+					"dataSource": "_rowUnit",
+					"method": "ObjectMethods/Combo Box1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"CB_2_1": {
+					"type": "checkbox",
+					"top": 605,
+					"left": 380,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Name",
+					"focusable": false,
+					"method": "ObjectMethods/CB_2_1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"CB_2_2": {
+					"type": "checkbox",
+					"top": 630,
+					"left": 380,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Short text",
+					"focusable": false,
+					"method": "ObjectMethods/CB_2_2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"CB_2_3": {
+					"type": "checkbox",
+					"top": 655,
+					"left": 380,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Full text",
+					"focusable": false,
+					"method": "ObjectMethods/CB_2_3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 582,
+					"left": 200,
+					"width": 40,
+					"height": 17,
+					"sizingY": "move",
+					"textAlign": "right",
+					"text": "Min:"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 607,
+					"left": 200,
+					"width": 40,
+					"height": 17,
+					"sizingY": "move",
+					"textAlign": "right",
+					"text": "Max:"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 520,
+					"left": 204,
+					"width": 40,
+					"height": 17,
+					"sizingY": "move",
+					"textAlign": "right",
+					"text": "Unit:"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 550,
+					"left": 540,
+					"width": 370,
+					"height": 150,
+					"sizingY": "move",
+					"textAlign": "left",
+					"text": "(*) These formats are used to define row heights.\r\rIn truncated mode, the pictures are truncated horizontaly only. The height is used to define the height of the row.\r\rIn proportional mode, the height is calculated according to the Width/Height ratio of the picture."
+				},
+				"CB_AutoHeight": {
+					"type": "checkbox",
+					"top": 520,
+					"left": 60,
+					"width": 110,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Auto Height",
+					"focusable": false,
+					"method": "ObjectMethods/CB_AutoHeight.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}
